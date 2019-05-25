@@ -29,5 +29,3 @@ RUN # Clean up
 RUN apt-get -y autoremove
 RUN rm -rvf /var/lib/apt/lists/*
 CMD exec /bin/bash "$@"
-
-
